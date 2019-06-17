@@ -39,8 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtFechaAlta = new System.Windows.Forms.TextBox();
             this.txtDesc = new System.Windows.Forms.TextBox();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.lstDef = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listSinResolver = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -153,24 +152,20 @@
             this.txtDesc.TabIndex = 4;
             this.txtDesc.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // listView1
+            // listSinResolver
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.lstDef});
-            this.listView1.Location = new System.Drawing.Point(28, 12);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(547, 97);
-            this.listView1.TabIndex = 2;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.SmallIcon;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged_1);
+            this.listSinResolver.FormattingEnabled = true;
+            this.listSinResolver.Location = new System.Drawing.Point(12, 12);
+            this.listSinResolver.Name = "listSinResolver";
+            this.listSinResolver.Size = new System.Drawing.Size(574, 108);
+            this.listSinResolver.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(598, 450);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.listSinResolver);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
@@ -196,8 +191,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button cmdAceptar;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader lstDef;
+        private System.Windows.Forms.ListBox listSinResolver;
     }
 }
 

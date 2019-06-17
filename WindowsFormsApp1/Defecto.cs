@@ -16,9 +16,14 @@ namespace WindowsFormsApp1
         public string Descripcion { get; set; }
         public DateTime FechaAlta { get; set; }
 
-        
+        public static List<Defecto> ObtenerD() {
 
-            
+            List<Defecto> ListaD = new List<Defecto>();
+
+
+            return ListaD;
+
+           }
 
 
 
